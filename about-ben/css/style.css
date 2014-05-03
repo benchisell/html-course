@@ -1,8 +1,7 @@
 body {
   line-height: 1.5;
   color: white;
-
-  font-family: 'arial';
+	font-family: 'Lato', serif;
 
   background: url('../images/daft-sam.gif');
   /* Full Page Background Receipe */
@@ -17,9 +16,11 @@ body {
   margin: 40px;
   background: rgba(0,0,0,0.5);
   padding: 15px;
+  border-radius: 10px;
 }
 
 h1 {
+	font-family: 'Rokkitt', serif;
 	font-size: 80px;
 	margin-bottom: -50px;
 }
