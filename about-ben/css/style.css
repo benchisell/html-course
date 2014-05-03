@@ -1,9 +1,9 @@
 body {
   line-height: 1.5;
   color: white;
-	font-family: 'Lato', serif;
+	font-family: 'Roboto', serif;
 
-  background: url('../images/daft-sam.gif');
+  background: url('../images/yas-background.jpg');
   /* Full Page Background Receipe */
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  width: 500px;
+  width: 560px;
   margin: 40px;
   background: rgba(0,0,0,0.5);
   padding: 15px;
@@ -32,4 +32,8 @@ h2 {
 a {
 	color: #BFE35B;
 	text-decoration: none;
+}
+
+iframe {
+	margin-bottom: 20px;
 }
