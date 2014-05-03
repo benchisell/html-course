@@ -2,6 +2,8 @@ body {
   line-height: 1.5;
   color: white;
 
+  font-family: 'arial';
+
   background: url('../images/daft-sam.gif');
   /* Full Page Background Receipe */
   background-size: cover;
@@ -13,7 +15,7 @@ body {
 .container {
   width: 500px;
   margin: 40px;
-  background: black;
+  background: rgba(0,0,0,0.5);
   padding: 15px;
 }
 
@@ -27,6 +29,6 @@ h2 {
 }
 
 a {
-	color: green;
+	color: #BFE35B;
 	text-decoration: none;
 }
