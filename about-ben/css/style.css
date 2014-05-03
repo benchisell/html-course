@@ -13,10 +13,12 @@ body {
 
 .container {
   width: 560px;
-  margin: 40px;
+	margin: 0 auto;
+	margin-bottom: 50px;
   background: rgba(0,0,0,0.5);
   padding: 15px;
   border-radius: 10px;
+  text-align: center;
 }
 
 h1 {
@@ -36,4 +38,10 @@ a {
 
 iframe {
 	margin-bottom: 20px;
+}
+
+li
+{
+display:inline;
+margin-right: 20px;
 }
