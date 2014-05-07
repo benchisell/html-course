@@ -1,0 +1,127 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Roboto', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}
+
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+#header {
+	width:1000px;
+	
+}
+
+#main {
+	width:650px;
+	background-color: white;
+	float: left;
+	margin-right: 15px;
+	padding: 20px;
+}
+
+#sidebar {
+	width:300px;
+	background-color: white;
+	float: left;
+	padding: 20px;
+}
+
+#footer {
+	width:1000px;
+	
+}
+
+img {
+}
+
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background: "images/chris-castiglione.jpg" no-repeat;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 50px;
+	margin: 0px;
+	margin-bottom: -30px;
+	margin-top: 30px;
+}
+
+h3 {
+	margin: 0px;
+}
+
+.h2-body {
+	font-size: 40px;
+	margin:0px;
+}
+
+.h2-side {
+	font-size: 20px;
+	margin:0px;
+}
+
+
+.caption {
+	color: grey;
+	margin-bottom: 40px;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+hr {
+	background-color: grey;
+	height: 1px;
+}
+
+blockquote {
+	border-left: 5px #BBB solid;
+	padding-left: 10px;
+	margin-left: 0;
+	font-style: italic;
+}
